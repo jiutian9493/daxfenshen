@@ -1,11 +1,1 @@
-{
-  "schema": 1,
-  "latestVersionCode": 3,
-  "latestVersionName": "0.3.0",
-  "minVersionCode": 0,
-  "updateUrl": "https://github.com/jiutian9493/daxfenshen/releases/download/v0.3.0/daxfenshen-V0.3.0.apk",
-  "sha256": "dfdbb842a86e8478b9b337dd1eb5b76a958a634ad05158ff7867995c6ffb136d",
-  "freeUntil": "",
-  "message": "",
-  "publishedAt": "2026-10-08T08:06:47Z"
-}
+{"schema":2,"payload":"eyJzY2hlbWEiOjIsImxhdGVzdFZlcnNpb25Db2RlIjozLCJsYXRlc3RWZXJzaW9uTmFtZSI6IjAuMy4wIiwibWluVmVyc2lvbkNvZGUiOjAsInVwZGF0ZVVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qaXV0aWFuOTQ5My9kYXhmZW5zaGVuL3JlbGVhc2VzL2Rvd25sb2FkL3YwLjMuMC9kYXhmZW5zaGVuLVYwLjMuMC5hcGsiLCJzaGEyNTYiOiJkZmRiYjg0MmE4NmU4NDc4YjliMzM3ZGQxZWI1Yjc2YTk1OGE2MzRhZDA1MTU4ZmY3ODY3OTk1YzZmZmIxMzZkIiwiZnJlZVVudGlsIjoiIiwibWVzc2FnZSI6IiIsInB1Ymxpc2hlZEF0IjoiMTAvMDgvMjAyNiAwODowNjo0NyJ9","signature":"AZmyH6kbzgv4A33pStIfdU2JbNf9AxzV207s1xR5pLwgYIpjLAH-hKMP_veeSkoLutSfVzHzQQODqJIzs_V9HAAzB98P"}
