@@ -70,3 +70,8 @@ Feedback about compatibility, issues, and feature requests is welcome.
 ## Release repository
 
 This repository is used only for official APK releases and version metadata. Always download from the official release pages to avoid mixing builds from different sources or signing identities.
+## Privacy and permissions
+
+DaX Clone does not provide an account system and does not upload data from cloned apps. The app creates an Android separate space and becomes its administrator so it can clone, isolate, and manage third-party apps on the device. App lists, clone state, and settings are stored locally. Uninstalling DaX Clone or removing the separate space affects the clones and their data.
+
+See [Privacy and permissions](PRIVACY.md) for details.
