@@ -1,5 +1,7 @@
 # DaX Clone
 
+**English** | [简体中文](README.md)
+
 **Isolated app cloning for third-party Android apps.**
 
 DaX Clone is a lightweight Android utility that creates an isolated clone of a third-party app. The clone and the original app keep separate data, so they do not interfere with each other. Setup is guided and requires no complicated configuration.
