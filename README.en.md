@@ -1,57 +1,70 @@
 # DaX Clone
 
-DaX Clone is an Android utility for creating isolated clones of third-party apps on the same device.
+**Isolated app cloning for third-party Android apps.**
 
-## Features
+DaX Clone is a lightweight Android utility that creates an isolated clone of a third-party app. The clone and the original app keep separate data, so they do not interfere with each other. Setup is guided and requires no complicated configuration.
 
-- Create a clone of a third-party app
-- Keep clone data isolated from the original app
-- Freeze and unfreeze clones
-- Launch and manage clones from DaX Clone
-- One clone per app in the separate space
+## Highlights
+
+- **App cloning**: Create an isolated clone of a third-party app.
+- **Data isolation**: The clone and the original app keep separate data.
+- **Single-clone design**: One clone per app in the separate space for simpler management.
+- **Freeze and unfreeze**: Freeze a clone when it is not in use and restore it later.
+- **Centralized management**: Launch and manage clones from DaX Clone.
+- **Update notices**: Get notified in the app when a newer official version is available.
 
 ## Download
 
-- [Gitee Releases](https://gitee.com/jiutian9493/daxfenshen/releases)
-- [GitHub Releases](https://github.com/jiutian9493/daxfenshen/releases)
+| Source | Link |
+| --- | --- |
+| Gitee Releases (recommended in mainland China) | [Download](https://gitee.com/jiutian9493/daxfenshen/releases) |
+| GitHub Releases | [Download](https://github.com/jiutian9493/daxfenshen/releases) |
 
 Android 10 or newer is recommended.
 
-## Installation
+## Quick start
 
 1. Download the latest APK from Releases.
 2. Allow installation from the requested source when prompted.
-3. Open DaX Clone and create the separate space.
-4. Choose a third-party app to create a clone.
+3. Open DaX Clone and follow the guide to create the separate space.
+4. Choose a third-party app and create its clone.
 
-Installing or upgrading requires the same signing identity. Uninstalling DaX Clone or removing the managed space also affects clones and their data, so back up important data first.
+## Compatibility
 
-## Updates
+- DaX Clone is designed for third-party apps.
+- Support may vary by device manufacturer and Android version. Actual behavior depends on the device.
+- If installation or startup fails, join the QQ group and share the details.
 
-- DaX Clone shows an update prompt when a newer supported version is available.
-- You can also download a newer APK from Releases and install it over the existing version.
-- Official builds keep the same signing identity.
+## Upgrade and uninstall
+
+- Official builds share the same signing identity and can normally be installed over an existing official build.
+- Uninstalling DaX Clone or removing the separate space affects its clones and their data.
+- Back up important data before upgrading, uninstalling, or changing the space.
 
 ## FAQ
 
 ### Why is a separate space required?
 
-The separate space isolates clone data from the original app.
+The separate space isolates clone data from the original app so they do not interfere with each other.
 
-### Does uninstalling remove clones?
+### Why is there only one clone per app?
 
-Uninstalling DaX Clone or removing the managed profile affects the separate space and its clones.
+The current version uses a single-clone design to reduce repeated configuration and simplify management.
 
-### Which Android versions are supported?
+### Will uninstalling delete my clones?
 
-Android 10 or newer is recommended. Support may vary by OEM and system version.
+Yes. Uninstalling DaX Clone or removing the separate space affects the clones and their data. Back up important data first.
+
+### How do I get updates?
+
+DaX Clone shows a notice when an official update is available. You can also download the latest APK from Releases and install it over the existing version.
 
 ## Feedback
 
 QQ group: `1107251534`
 
-Feedback about compatibility and feature requests is welcome.
+Feedback about compatibility, issues, and feature requests is welcome.
 
 ## Release repository
 
-This repository is used only for official APK releases and version metadata. Always download from the official release pages.
+This repository is used only for official APK releases and version metadata. Always download from the official release pages to avoid mixing builds from different sources or signing identities.
