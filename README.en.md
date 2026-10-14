@@ -31,6 +31,29 @@ Android 10 or newer is recommended.
 3. Open DaX Clone and follow the guide to create the separate space.
 4. Choose a third-party app and create its clone.
 
+## Command line (optional)
+
+Besides the GUI, DaX Clone ships a companion CLI tool `dax` for scripting and batch scenarios (cloud phones, fleet deployment, automated testing).
+
+- The tool is attached to Releases: file name `dax` (Linux shell script; `chmod 755` after copying to the device).
+- Add its directory to PATH once per session:
+
+```bash
+export PATH=$PATH:/data/local/tmp
+```
+
+- Common commands:
+
+```bash
+dax space create            # create the space (once per device)
+dax clone <pkg> [pkg...]    # clone the given app(s)
+dax run <pkg>               # launch a clone
+dax list                    # list clones
+dax remove <pkg> [pkg...]   # remove clone(s) including data
+dax help                    # full reference
+```
+
+The tool runs entirely on-device: no network access, no account, and the same scope of effect as the GUI.
 ## Compatibility
 
 - DaX Clone is designed for third-party apps.
